@@ -1,0 +1,61 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 6301milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 6301"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 52066"}
+{"logLevel":"info","message":"Listening on port:52066"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'stepDef.ProductPageSteps.favorite' and 'stepDef.ProductPageSteps.favorite'"}
+{"logLevel":"debug","message":"Found Bookmark the product in current project scope."}
+{"logLevel":"debug","message":"Comparing 'stepDef.CategoryPageSteps.select' and 'stepDef.CategoryPageSteps.select'"}
+{"logLevel":"debug","message":"Found Then select Woman and then Pants. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'stepDef.HomePageSteps.categories' and 'stepDef.HomePageSteps.categories'"}
+{"logLevel":"debug","message":"Found Go to categories page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'stepDef.SearchPageSteps.select' and 'stepDef.SearchPageSteps.select'"}
+{"logLevel":"debug","message":"Found Choose a product at random in current project scope."}
+{"logLevel":"debug","message":"Comparing 'stepDef.CategoryPageSteps.implementation1' and 'stepDef.CategoryPageSteps.implementation1'"}
+{"logLevel":"debug","message":"Found Select Woman in current project scope."}
+{"logLevel":"debug","message":"Comparing 'stepDef.StartPageSteps.start' and 'stepDef.StartPageSteps.start'"}
+{"logLevel":"debug","message":"Found Click on the Start Shopping button in current project scope."}
+{"logLevel":"debug","message":"Comparing 'stepDef.StartPageSteps.ensureInstallationInstructionsAreAvailable' and 'stepDef.StartPageSteps.ensureInstallationInstructionsAreAvailable'"}
+{"logLevel":"debug","message":"Found Ensure installation instructions are available in current project scope."}
+{"logLevel":"debug","message":"Comparing 'stepDef.StartPageSteps.gotoGetStartedPage' and 'stepDef.StartPageSteps.gotoGetStartedPage'"}
+{"logLevel":"debug","message":"Found Go to Gauge Get Started Page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'stepDef.StartPageSteps.notification' and 'stepDef.StartPageSteps.notification'"}
+{"logLevel":"debug","message":"Found Allow notification. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'stepDef.StartPageSteps.close' and 'stepDef.StartPageSteps.close'"}
+{"logLevel":"debug","message":"Found Close the cookie pop-up in current project scope."}
+{"logLevel":"debug","message":"Comparing 'stepDef.HomePageSteps.account' and 'stepDef.HomePageSteps.account'"}
+{"logLevel":"debug","message":"Found Go to my account in current project scope."}
+{"logLevel":"debug","message":"Comparing 'stepDef.SearchPageSteps.scroll' and 'stepDef.SearchPageSteps.scroll'"}
+{"logLevel":"debug","message":"Found Scroll down to the bottom of the page twice. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'stepDef.StartPageSteps.implementation1' and 'stepDef.StartPageSteps.implementation1'"}
+{"logLevel":"debug","message":"Found Open the Gauge homepage in current project scope."}
+{"logLevel":"debug","message":"Comparing 'stepDef.LoginPageSteps.logIn' and 'stepDef.LoginPageSteps.logIn'"}
+{"logLevel":"debug","message":"Found log in the user in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tGo to my account : public void account()"}
+{"logLevel":"debug","message":"\tBookmark the product : public void favorite()"}
+{"logLevel":"debug","message":"\tAllow notification. : public void notification()"}
+{"logLevel":"debug","message":"\tThen select Woman and then Pants. : public void select() throws InterruptedException"}
+{"logLevel":"debug","message":"\tClick on the Start Shopping button : public void start()"}
+{"logLevel":"debug","message":"\tlog in the user : public void logIn()"}
+{"logLevel":"debug","message":"\tScroll down to the bottom of the page twice. : public void scroll()"}
+{"logLevel":"debug","message":"\tClose the cookie pop-up : public void close()"}
+{"logLevel":"debug","message":"\tSelect Woman : public void implementation1()"}
+{"logLevel":"debug","message":"\tOpen the Gauge homepage : public void implementation1()"}
+{"logLevel":"debug","message":"\tGo to Gauge Get Started Page : public void gotoGetStartedPage() throws InterruptedException"}
+{"logLevel":"debug","message":"\tGo to categories page : public void categories()"}
+{"logLevel":"debug","message":"\tChoose a product at random : public void select()"}
+{"logLevel":"debug","message":"\tEnsure installation instructions are available : public void ensureInstallationInstructionsAreAvailable() throws InterruptedException"}
+{"logLevel":"debug","message":"Executing 'Allow notification.' using 'class stepDef.StartPageSteps.notification"}
+{"logLevel":"debug","message":"Executing 'Close the cookie pop-up' using 'class stepDef.StartPageSteps.close"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

@@ -1,0 +1,34 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 4339milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 4339"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 57160"}
+{"logLevel":"info","message":"Listening on port:57160"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'stepDef.StartPageSteps.start' and 'stepDef.StartPageSteps.start'"}
+{"logLevel":"debug","message":"Found Click on the Start Shopping button in current project scope."}
+{"logLevel":"debug","message":"Comparing 'stepDef.StartPageSteps.ensureInstallationInstructionsAreAvailable' and 'stepDef.StartPageSteps.ensureInstallationInstructionsAreAvailable'"}
+{"logLevel":"debug","message":"Found Ensure installation instructions are available in current project scope."}
+{"logLevel":"debug","message":"Comparing 'stepDef.StartPageSteps.gotoGetStartedPage' and 'stepDef.StartPageSteps.gotoGetStartedPage'"}
+{"logLevel":"debug","message":"Found Go to Gauge Get Started Page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'stepDef.StartPageSteps.close' and 'stepDef.StartPageSteps.close'"}
+{"logLevel":"debug","message":"Found Close the cookie pop-up in current project scope."}
+{"logLevel":"debug","message":"Comparing 'stepDef.StartPageSteps.implementation1' and 'stepDef.StartPageSteps.implementation1'"}
+{"logLevel":"debug","message":"Found Open the Gauge homepage in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tOpen the Gauge homepage : public void implementation1()"}
+{"logLevel":"debug","message":"\tGo to Gauge Get Started Page : public void gotoGetStartedPage() throws InterruptedException"}
+{"logLevel":"debug","message":"\tEnsure installation instructions are available : public void ensureInstallationInstructionsAreAvailable() throws InterruptedException"}
+{"logLevel":"debug","message":"\tClick on the Start Shopping button : public void start()"}
+{"logLevel":"debug","message":"\tClose the cookie pop-up : public void close()"}
+{"logLevel":"debug","message":"Executing 'Close the cookie pop-up' using 'class stepDef.StartPageSteps.close"}
+{"logLevel":"debug","message":"Executing 'Click on the Start Shopping button' using 'class stepDef.StartPageSteps.start"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
